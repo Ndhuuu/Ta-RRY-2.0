@@ -5,7 +5,7 @@ $('#search-button').on('click', function() {
     $('.info').removeClass('col-md-10').addClass('col-md-12')
     $('.info').addClass('text-center')
     $('.info').html(`
-            <img src="img/kurir.gif" alt="kurir" width="150" class="mt-5 img-fluid ">
+            <img src="img/Loading.gif" alt="Loading gif" width="150" class="mt-5 img-fluid ">
     `);
     
     $.ajax({
